@@ -5,4 +5,5 @@ package calculator;
  */
 public interface ICostCalculator {
 
+    void addItemCalculator(String itemName, IItemCalculator iItemCalculator);
 }
