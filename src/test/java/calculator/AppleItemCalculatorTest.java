@@ -1,6 +1,5 @@
 package calculator;
 
-import model.IItem;
 import model.Item;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,12 +9,12 @@ import static org.junit.Assert.*;
 /**
  * Created by danos on 13/03/2018.
  */
-public class AppleCalculatorTest {
+public class AppleItemCalculatorTest {
     private IItemCalculator iItemCalculator;
 
     @Before
     public void before(){
-        this.iItemCalculator = new AppleCalculator(new Float(0.6));
+        this.iItemCalculator = new AppleItemCalculator(new Float(0.6));
     }
 
     @Test

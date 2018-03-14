@@ -10,11 +10,11 @@ import java.util.Map;
 /**
  * Created by danos on 13/03/2018.
  */
-public class AppleCalculator implements IItemCalculator {
+public class AppleItemCalculator implements IItemCalculator {
     private Float itemPrice = 0.0f;
     private List<IItem> iItemList = new ArrayList();
 
-    public AppleCalculator(Float itemPrice) {
+    public AppleItemCalculator(Float itemPrice) {
         this.itemPrice = itemPrice;
     }
 
