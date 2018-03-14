@@ -54,7 +54,7 @@ public class AppleItemCalculatorTest {
         Float result = this.iItemCalculator.calculateCost();
 
         //assert
-        assertEquals(4.2f, result.floatValue(),0.0009f);
+        assertEquals(2.4f, result.floatValue(),0.0009f);
 
     }
 

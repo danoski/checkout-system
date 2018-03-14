@@ -29,6 +29,8 @@ public class OrangeItemCalculator implements IItemCalculator {
      * @return Float
      */
     public Float calculateCost() {
-        return this.iItemList.size() * this.itemPrice;
+        //introduce three for price of two
+        int numItemsCharged = this.iItemList.size() - (this.iItemList.size() / 3);
+        return numItemsCharged * this.itemPrice;
     }
 }

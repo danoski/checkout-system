@@ -58,7 +58,7 @@ public class OrangeCalculatorTest {
         Float res = this.iItemCalculator.calculateCost();
 
         //assert
-        assertEquals(2.5f,res, .0009f);
+        assertEquals(1.75f,res, .0009f);
     }
 
 }

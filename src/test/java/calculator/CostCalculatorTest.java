@@ -48,7 +48,7 @@ public class CostCalculatorTest {
         Float result = this.iCostCalculator.calculateCostOfItems(items);
 
         //assert
-        assertEquals(0.50f, result, 0.0009f);
+        assertEquals(0.25f, result, 0.0009f);
     }
 
     @Test

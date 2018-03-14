@@ -31,6 +31,9 @@ public class AppleItemCalculator implements IItemCalculator {
      * @return
      */
     public Float calculateCost() {
-        return iItemList.size()*this.itemPrice;
+        // introduce bogof
+        int numItemsCharged = this.iItemList.size() / 2;
+        int oddOnes = this.iItemList.size() % 2;
+        return (numItemsCharged+oddOnes)*this.itemPrice;
     }
 }
